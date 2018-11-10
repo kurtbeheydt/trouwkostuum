@@ -9,7 +9,7 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(totalLeds, 0, NEO_GRB + NEO_KHZ800);
 uint16_t energy = 3200;
 const uint16_t maxEnergy = 5000;
 const uint16_t energyIncrease = 200;
-const uint16_t energyDecrease = 10;
+const uint16_t energyDecrease = 5;
 
 uint8_t ledCount = 3;
 boolean fadeDirection = true;
